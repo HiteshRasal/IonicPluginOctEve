@@ -7,7 +7,7 @@
 @implementation KeyAcess
 
 #pragma mark- callback methods
-- (void)coolMethod:(CDVInvokedUrlCommand*)command
+- (void)storeMethod:(CDVInvokedUrlCommand*)command
 {
     keychain  =[[Keychain alloc] initWithService:SERVICE_NAME withGroup:nil];
     CDVPluginResult* pluginResult = nil;
